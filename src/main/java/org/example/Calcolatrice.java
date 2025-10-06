@@ -18,4 +18,8 @@ public class Calcolatrice {
         else
             return a/b;
     }
+
+    protected float Moltiplicazione(double a,double b){
+        return (float) (a*b);
+    }
 }
