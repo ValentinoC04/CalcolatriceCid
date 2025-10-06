@@ -21,6 +21,7 @@ public class Main {
             System.out.println("Dammi il valore di del secondo  numero");
             int b=s.nextInt();
             System.out.println("Il risultato è: "+c.Sotttrazione(a,b));
+            System.out.println("Fine");
         }
     }
 }
