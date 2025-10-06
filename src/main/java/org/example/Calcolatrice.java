@@ -9,4 +9,13 @@ public class Calcolatrice {
     protected int  Sotttrazione(int a, int b) {
         return a - b;
     }
+
+    protected float Divisione(float a,float b){
+        if(b==0){
+            System.out.println("Errore!");
+            return 0;
+        }
+        else
+            return a/b;
+    }
 }
